@@ -6,7 +6,7 @@ Send commands to rtorrent through its scgi/xml-rpc interface.
 Usage:
 ------
 
-rtorrent host:port rpccommand [rpcarg]
+rtorrentrpc host:port rpccommand [rpcarg]
 
 List of xml-rpc rtorrent commands: [RTorrentCommands] [1]
 
