@@ -4,14 +4,17 @@ rtorrentrpc
 Send commands to rtorrent through its scgi/xml-rpc interface.
 
 Usage:
-rtorrent <host:port> <command> [arg1] [arg2]...
+------
 
-List of xml-rpc rtorrent commands:
-http://libtorrent.rakshasa.no/wiki/RTorrentCommands
+rtorrent host:port rpccommand [rpcarg]
+
+List of xml-rpc rtorrent commands: [RTorrentCommands] [1]
 
 Install:
+--------
 
-Install Go: http://golang.org/doc/install
+ 1. Install Go: http://golang.org/doc/install
+ 2. go get github.com/mpl/rtorrentrpc
+ 3. (or ask me for a binary)
 
-Then simply: go get github.com/mpl/rtorrentrc
-
+[1]: http://libtorrent.rakshasa.no/wiki/RTorrentCommands
