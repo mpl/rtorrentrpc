@@ -41,7 +41,7 @@ func main() {
 	addr := args[0]
 	command := args[1]
 	cmdArg := ""
-	if args[2] != "" {
+	if len(args) > 2 {
 		cmdArg = args[2]
 	}
 	xmlrpc := ghettoXMLRpc(command, cmdArg)
